@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background_site.png");
+  background-color: #190819;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  margin: 30px 0px;
+  font-family: 'harryPotter';
+  font-size: 1.9em;
+  text-align: center;
+  color: black;
+}
+
+.press_start{
+  font-family: 'pressStart';
+  font-size: 1.9em;
+  color: white;
+  margin: 100px 0px;
+  text-align: center;
+}
+
+.harry_img{
+  margin:auto;
+  width: 100px;
+  display: block;
+}
+
+.start_button{
+  background-color: #e67e22;
+  width: 130px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+	font-family: 'pressStart';
+	font-size: 14px;
+  margin:auto;
+  display: block;
+  margin-top: 70px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  padding-top:15px;
+}
+
+.start_button:hover{
+  background-color: #f39c12;
+}
+
+.start_button span{
+  text-align: center;
+  margin: 28px;
+}
+
+.book{
+  position: absolute;
+  margin-left: 25%;
+  padding-top: 5%;
+}
+
+.booktxt1{
+  position: absolute;
+  font-family: 'Minecraft';
+  font-size: 14px;
+  color: #4A2525;
+  margin-top: 12.5%
+}
+
+.booktxt1 p{
+  display: block;
+  text-align: left;
+  margin-left:56%;
+  width: 25%;
+}
+
+.booktxt2{
+  position: absolute;
+  font-family: 'Minecraft';
+  font-size: 14px;
+  color: #4A2525;
+  margin-top: 12%
+}
+
+.booktxt2 p{
+  display: block;
+  text-align: left;
+  margin-left:92%;
+  width: 22%;
+}

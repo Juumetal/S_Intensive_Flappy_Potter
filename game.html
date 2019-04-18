@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles/game.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <embed loop = "true" src="sounds/background_music.mp3" hidden="true"></embed>
+    <div class="game_container">
+      <div class="game_background">
+        <img class="game_background01" src="images/background01.png" alt="">
+        <img class="game_background02" src="images/background02.png" alt="">
+      </div>
+      <canvas id="canvas" width="1280" height="720">
+      </canvas>
+    </div>
+    <audio>
+      <source id="pew" src="sounds/hitSound.wav"></source>
+      
+    </audio>
+    <script type="text/javascript" src="scripts/option.js"></script>
+    <script type="text/javascript" src="scripts/character.js"></script>
+    <script type="text/javascript" src="scripts/enemy.js"></script>
+    <script type="text/javascript" src="scripts/ball.js"></script>
+    <script type="text/javascript" src="scripts/collision.js"></script>
+    <script type="text/javascript" src="scripts/score.js"></script>
+    <script type="text/javascript" src="scripts/shop.js"></script>
+  </body>
+</html>
